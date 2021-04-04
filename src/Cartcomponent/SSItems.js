@@ -5,7 +5,7 @@ export default function SSItem({product}){
     return(
         <div className="SSItem-container">
             <img
-                style={{width:'125px',height:'125px',marginRight:'10px'}}
+                style={{width:'120px',height:'120px',marginRight:'10px'}}
                 src={product.image}
             />
             <div className="SSItem-content">
